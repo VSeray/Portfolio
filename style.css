@@ -35,16 +35,6 @@ a.button {
   margin: 5vh auto 5vh auto;
 }
 
-.headline-wrapper {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  border-bottom-left-radius: 110px;
-  background-image: url(file:///C:/Users/VS47~1/AppData/Local/Temp/header_section_background-2.png);
-  background-size: 60%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .content {
   padding: 20px;
   background: rgba(255, 255, 255, 1);
@@ -56,7 +46,7 @@ a.button {
   width: 170.1666717529297px;
   left: 24px;
   top: 470px;
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .icon-bar i {
