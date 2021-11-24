@@ -35,6 +35,16 @@ a.button {
   margin: 5vh auto 5vh auto;
 }
 
+.headline-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom-left-radius: 110px;
+  background-image: url(file:///C:/Users/VS47~1/AppData/Local/Temp/header_section_background-2.png);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .content {
   padding: 20px;
   background: rgba(255, 255, 255, 1);
@@ -103,10 +113,9 @@ h1 {
   display: flex;
   align-items: center;
   text-align: center;
-  position: static;
   width: 76px;
   height: 20px;
-  left: 12px;
+  left: 20px;
   top: 10px;
   font-family: 'Poppins';
   font-style: normal;
@@ -120,57 +129,29 @@ h1 {
   margin: 0 0;
 }
 
+
 h2 {
-  position: static;
-  width: 327px;
-  height: 150px;
-  left: 24px;
-  top: 114px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 60px;
+  font-family: 'Poppins', sans-serif;
+  color: #091e42;
   margin: 12px 0;
 }
 
-.p {
-  height: 146px;
-  width: 327px;
-  left: 24px;
-  top: 276px;
-  border-radius: null;
-  font-family: 'Poppins';
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 12px 0;
-}
+
 
 h3 {
+  color: #6070ff;
+  font-family: 'Poppins';
   height: 24px;
   width: 117px;
   left: 0;
   top: 0;
-  font-family: 'Poppins';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  color: rgba(127, 140, 255, 1);
 }
