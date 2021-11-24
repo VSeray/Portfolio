@@ -1,41 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
-
-html {
-  background: #ffff;
-  font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+html{
   box-sizing: border-box;
 }
 
+html{
+  font-size: 10px;
+}
 
-h1 {
-  display: flex;
-  align-items: center;
-  text-align: center;
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  font-size: 1.5rem;
+  background-image: linear-gradient(260deg,);
+}
 
-  position: static;
-  width: 76px;
-  height: 20px;
-  left: 12px;
-  top: 10px;
-
-  font-family: Poppins;
-  font-style: normail;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 20px;
-
+a{
   color: #6070FF;
-
-  /* Inside Auto Layout*/
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 0px;
+  text-decoration: none;
 }
 
-div {
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
+a.button{
+  background: white;
+  border-radius: 4px;
 }
+
+.app-wrap {
+  max-width: 540px;
+  height: 90vh;
+  margin: 5vh auto 5vh auto;
+}
+
+.content{
+  padding: 20px;
+  background: rgba(255, 255, 255, 1);
+  line-height: 1.6;
+}
+
+.icon-bar a{
+height: 20.000062942504883px;
+width: 170.1666717529297px;
+left: 24px;
+top: 470px;
+border-radius: 0px;
+}
+
