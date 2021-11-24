@@ -164,3 +164,19 @@ p {
  flex-grow: 0;
  margin: 12px 0px;
 }
+
+h3 {
+  height: 24px;
+  width: 117px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(127, 140, 255, 1);
+}
