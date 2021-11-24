@@ -120,11 +120,39 @@ h1 {
 }
 
 h2 {
+  height: 150px;
+  width: 327px;
+  left: 24px;
+  top: 114px;
+  border-radius: null;
+  font-family: 'Poppins';
+  font-size: 40px;
+  font-style: normal;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 60px;
-  font-family: 'Poppins', sans-serif;
-  color: #091e42;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(23, 43, 77, 1);
+
+}
+
+.p {
+  height: 146px;
+  width: 327px;
+  left: 24px;
+  top: 276px;
+  border-radius: null;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
   margin: 12px 0;
 }
 
