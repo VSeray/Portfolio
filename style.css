@@ -9,10 +9,9 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   font-size: 1.5rem;
-  background-image: linear-gradient(260deg,);
 }
 
-a{
+a {
   color: #6070ff;
   text-decoration: none;
 }
@@ -72,7 +71,6 @@ a.button {
   left: 180px;
   top: 470px;
   border-radius: 0;
-
 }
 
 /* Flexbox CSS Starts here */
