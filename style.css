@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
-html{
+html {
   box-sizing: border-box;
-}
-
-html{
   font-size: 10px;
 }
 
-body{
+
+body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   font-size: 1.5rem;
@@ -15,11 +13,11 @@ body{
 }
 
 a{
-  color: #6070FF;
+  color: #6070ff;
   text-decoration: none;
 }
 
-a.button{
+a.button {
   background: white;
   border-radius: 4px;
 }
@@ -30,13 +28,13 @@ a.button{
   margin: 5vh auto 5vh auto;
 }
 
-.content{
+.content {
   padding: 20px;
   background: rgba(255, 255, 255, 1);
   line-height: 1.6;
 }
 
-.icon-bar a{
+.icon-bar a {
 height: 20.000062942504883px;
 width: 170.1666717529297px;
 left: 24px;
@@ -44,7 +42,7 @@ top: 470px;
 border-radius: 0px;
 }
 
-.icon-bar a{
+.icon-bar a {
 height: 20.000062942504883px;
 width: 20.00014877319336px;
 left: 63px;
@@ -52,7 +50,7 @@ top: 470px;
 border-radius: 0px;
 }
 
-.icon-bar a{
+.icon-bar a {
 height: 16px;
 width: 20px;
 left: 103px;
@@ -60,7 +58,7 @@ top: 472px;
 border-radius: 0px;
 }
 
-.icon-bar a{
+.icon-bar a {
 height: 20px;
 width: 17.985200881958008px;
 left: 143px;
@@ -68,10 +66,11 @@ top: 470px;
 border-radius: 0px;
 }
 
-.icon-bar a{
+.icon-bar a {
 height: 20px;
 width: 14.166671752929688px;
 left: 180px;
 top: 470px;
 border-radius: 0px;
 }
+
