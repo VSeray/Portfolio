@@ -95,14 +95,10 @@ html {
 
 .social-icon {
   display: flex;
-  display:inline;
   padding-left: 0%;
   list-style: none;
-  width: 170.17px;
+  width: 200px;
   margin: 0 25px 0 25px;
-  height: 20px;
-  left: 24px;
-  top: 470px;
 }
 
 .social-media {
