@@ -27,6 +27,12 @@ html {
   flex: 10;
 }
 
+.head-wrapper {
+  align-items: center;
+  padding-bottom: 30px;
+  margin: 25px 25px 0 25px;
+}
+
 .menu {
   flex: 1;
 }
@@ -54,7 +60,7 @@ html {
   padding-top: 100px;
   padding-bottom: 100px;
   border-bottom-left-radius: 110px;
-  background-image: url("header_section_background.png");
+  background-image: url("/header_section_background.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,11 +73,11 @@ html {
 }
 
 .intro {
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 900;
+  font-size: 30px;
   font-family: 'Poppins', sans-serif;
   color: rgba(23, 43, 77, 1);
-  width: 327px;
+  width: 415px;
   left: 24px;
 }
 
@@ -81,6 +87,7 @@ html {
   line-height: 24px;
   font-family: 'Poppins', sans-serif;
   color: #344563;
+  position: static;
 }
 
 .end-message {
@@ -96,6 +103,7 @@ html {
   list-style: none;
   width: 200px;
   margin: 0 25px 0 25px;
+  position: static;
 }
 
 .social-media {
