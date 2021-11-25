@@ -27,8 +27,8 @@ a {
   text-decoration: none;
 }
 
-a.button {
-  background: white;
+a .button {
+  background: rgb(228, 216, 216);
   border-radius: 4px;
   height: 12px;
   width: 18px;
