@@ -18,6 +18,8 @@ html {
   padding-left: 30px;
   padding-top: 30px;
   padding-right: 30px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-bar ul {
@@ -29,12 +31,6 @@ html {
 
 .head-wrapper {
   align-items: center;
-  padding-bottom: 30px;
-  margin: 25px 25px 0 25px;
-}
-
-.menu {
-  flex: 1;
 }
 
 .logo {
@@ -51,7 +47,7 @@ html {
 
 .toogle-btn {
   width: 35px;
-  height: 3px;
+  height: 3px;                                                                                            
   background-color: #6070ff;
   margin: 6px 0;
 }
@@ -60,7 +56,7 @@ html {
   padding-top: 100px;
   padding-bottom: 100px;
   border-bottom-left-radius: 110px;
-  background-image: url("/header_section_background.png");
+  background-image: url("./header_section_background.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -77,8 +73,8 @@ html {
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
   color: rgba(23, 43, 77, 1);
-  width: 415px;
   left: 24px;
+  line-height: 52px;
 }
 
 .message {
