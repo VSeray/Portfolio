@@ -72,6 +72,9 @@ html {
   font-family: 'Poppins', sans-serif;
   color: rgba(23, 43, 77, 1);
   margin: 12px 0;
+  width: 327px;
+  left: 24px;
+  top: 114px;
 }
 
 .message {
@@ -79,7 +82,7 @@ html {
   font-size: 16px;
   line-height: 24px;
   font-family: 'Poppins', sans-serif;
-  color: rgba(52, 69, 99, 1);
+  color: #344563;
 }
 
 .end-message {
@@ -92,10 +95,14 @@ html {
 
 .social-icon {
   display: flex;
+  display:inline;
   padding-left: 0%;
   list-style: none;
-  width: 200px;
+  width: 170.17px;
   margin: 0 25px 0 25px;
+  height: 20px;
+  left: 24px;
+  top: 470px;
 }
 
 .social-media {
