@@ -125,7 +125,7 @@ html {
 
 .work-flex {
   height: auto;
-  background: white;
+  background: #ebebff;
   margin: 0 15px 80px 15px;
   border-style: solid;
   border-color: rgb(219, 214, 214);
@@ -244,7 +244,7 @@ a.btn-see-project:active {
   border-radius: 4px;
   font-size: 17px;
   font-weight: 300;
-  background: navy;
+  background: #000080;
   color: #ebebff;
   font-family: 'Poppins', sans-serif;
 }
