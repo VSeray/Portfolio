@@ -163,7 +163,7 @@ html {
   display: flex;
   flex-direction: row;
   padding-left: 0;
-  justify-self: flex-start;
+  align-self: flex-start;
   padding-top: 10px;
   width: 100%;
 }
@@ -176,7 +176,6 @@ html {
   color: #344563;
   padding-right: 25px;
   flex: 1;
-  margin-left: 30px;
 }
 
 .titles-item {
