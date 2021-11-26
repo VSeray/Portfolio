@@ -112,8 +112,3 @@ html {
 .social-media a {
   color: rgba(80, 95, 121, 1);
 }
-
-.social-content {
-  display: flex;
-  padding-left: 0;
-}
