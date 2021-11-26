@@ -13,13 +13,13 @@ html {
   box-sizing: inherit;
 }
 
-.head-wrapper {
-  padding-bottom: 30px;
-  margin: 25px 25px 0 25px;
-}
-
 .nav-bar {
   display: flex;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-bar ul {
@@ -29,14 +29,13 @@ html {
   flex: 10;
 }
 
-.menu {
-  display: block;
-  flex: 1;
+.head-wrapper {
+  align-items: center;
 }
 
 .logo {
   text-decoration: none;
-  color: #6070ff;
+  color: rgba(96, 112, 255, 1);
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -57,7 +56,7 @@ html {
   padding-top: 100px;
   padding-bottom: 100px;
   border-bottom-left-radius: 110px;
-  background-image: url(file:///C:/Users/VS47~1/AppData/Local/Temp/header_section_background.png);
+  background-image: url("./header_section_background.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -70,15 +69,12 @@ html {
 }
 
 .intro {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 60px;
+  font-weight: 900;
+  font-size: 30px;
   font-family: 'Poppins', sans-serif;
   color: rgba(23, 43, 77, 1);
-  margin: 12px 0;
-  width: 327px;
   left: 24px;
-  top: 114px;
+  line-height: 52px;
 }
 
 .message {
@@ -87,6 +83,7 @@ html {
   line-height: 24px;
   font-family: 'Poppins', sans-serif;
   color: #344563;
+  position: static;
 }
 
 .end-message {
@@ -98,17 +95,18 @@ html {
 }
 
 .social-icon {
-  display: flex;
   padding-left: 0%;
   list-style: none;
   width: 200px;
   margin: 0 25px 0 25px;
+  position: static;
 }
 
 .social-media {
   font-size: 20px;
   color: rgba(80, 95, 121, 1);
   flex: 1;
+  list-style: none;
 }
 
 .social-media a {
