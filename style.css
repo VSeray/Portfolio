@@ -264,7 +264,7 @@ a.btn-see-project:active {
 
 .aboutme-wrapper {
   padding-top: 100px;
-  background-color: #ebebff;
+  background-color: rgba(255, 255, 255, 1);
   border-top: solid;
   border-color: #f5f5f5;
   border-width: 5px;
