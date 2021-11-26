@@ -92,6 +92,7 @@ html {
   line-height: 24px;
   font-family: 'Poppins', sans-serif;
   color: rgba(127, 140, 255, 1);
+  position: static;
 }
 
 .social-icon {
@@ -113,6 +114,11 @@ html {
   color: rgba(80, 95, 121, 1);
 }
 
+.social-content {
+  display: flex;
+  padding-left: 0;
+}
+
 .works {
   background-color: #f7f7f9;
   margin: 0;
@@ -121,9 +127,9 @@ html {
   padding-top: 80px;
 }
 
-.work-flex {
+.works-flex {
   height: auto;
-  background: #ebebff;
+  background: rgba(255, 255, 255, 1);
   margin: 0 15px 80px 15px;
   border-style: solid;
   border-color: rgb(219, 214, 214);
@@ -170,6 +176,7 @@ html {
   color: #344563;
   padding-right: 25px;
   flex: 1;
+  margin-left: 30px;
 }
 
 .titles-item {
@@ -213,6 +220,11 @@ html {
 .btn-see-project {
   text-decoration: none;
   color: #4053fc;
+  border: 1px solid #396df2;
+  border-radius: 4px;
+  padding: 7px;
+  line-height: 30px;
+  font-size: 17px;
 }
 
 .btn-see-project:disabled {
@@ -258,17 +270,6 @@ a.btn-see-project:active {
   font-family: 'Poppins', sans-serif;
   color: #091e42;
   margin-bottom: 5px;
-}
-
-.aboutme-wrapper {
-  padding-top: 100px;
-  background-color: rgba(255, 255, 255, 1);
-  border-top: solid;
-  border-color: #f5f5f5;
-  border-width: 5px;
-  border-top-right-radius: 70px;
-  display: flex;
-  flex-direction: column;
 }
 
 a.btn-see-resume {
@@ -320,6 +321,17 @@ a.btn-see-resume:active {
   padding-left: 25px;
   padding-top: 25px;
   height: 90px;
+}
+
+.aboutme {
+  padding-top: 100px;
+  background-color: rgba(255, 255, 255, 1);
+  border-top: solid;
+  border-color: #f5f5f5;
+  border-width: 5px;
+  border-top-right-radius: 70px;
+  display: flex;
+  flex-direction: column;
 }
 
 .dflex {
