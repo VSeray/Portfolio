@@ -406,13 +406,18 @@ a.btn-see-resume:active {
 
 .contact-form {
   background-image: url(contact_form_shapes.png);
+  background-size: auto 50% ;
   background-color: #6070ff;
   background-size: cover;
+  /* height: 100%;
+  width: 100%; */
+
 }
 .contact-info {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 .contact-info h2 {
   font-size: 40px;
@@ -420,15 +425,17 @@ a.btn-see-resume:active {
   color: white;
   margin-top: 160px;
 }
+
 .contact-info p {
   font-size: 20px;
   text-align: center;
   margin-bottom: 38px;
-  padding: 0 70px;
   color: white;
+  width: 87.2%;
+
 }
 .contact-input {
-  width: 327px;
+  width: 87.2%;
   height: 48px;
   margin-bottom: 20px;
   margin-left: 24px;
@@ -441,11 +448,14 @@ a.btn-see-resume:active {
 }
 
 .contact-textarea {
-  font-size: 17px;
+  font-size: 15px;
   border: none;
   color: #172b4d;
   text-indent: 10px;
   padding-top: 10px;
+  margin-bottom: 10px;
+  width:  87.2%;
+  border-radius: 8px;
 }
 
 .contact-textarea:focus {
@@ -473,6 +483,7 @@ a.btn-see-resume:active {
   font-size: 17px;
 }
 .input-container {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -483,11 +494,15 @@ a.btn-see-resume:active {
   align-self: flex-start;
 }
 .home-ind {
-  margin-top: 50px;
-  margin-bottom: 10px;
+  background-color: #0d151e;
+  border: none;
+  height: 4px;
+  border-radius: 4px;
+
+  width: 36%;
 }
 
-.btn-see-project {
+.btn-get-it-touch {
   text-decoration: none;
   color: #6070ff;
   border: 1px solid #396df2;
@@ -496,14 +511,11 @@ a.btn-see-resume:active {
   line-height: 30px;
   font-size: 17px;
   border-radius: 8px;
-  margin-bottom: 20px;
-  /*margin-left: 24px;
-  margin-right: 24px;*/
-  align-self: flex-start;
+  margin-bottom: 20px;  
   background-color: #ffffff;
 }
 
-.btn-see-project:disabled {
+.btn-get-it-touch:disabled {
   font-weight: 300;
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
@@ -514,7 +526,7 @@ a.btn-see-resume:active {
   padding: 7px;
 }
 
-a.btn-see-project:hover {
+a.btn-get-it-touch:hover {
   border: 1px solid #396df2;
   padding: 7px;
   border-radius: 4px;
@@ -525,7 +537,7 @@ a.btn-see-project:hover {
   font-family: 'Poppins', sans-serif;
 }
 
-a.btn-see-project:active {
+a.btn-get-it-touch:active {
   padding: 7px;
   border-radius: 4px;
   font-size: 17px;
@@ -538,4 +550,12 @@ a.btn-see-project:active {
 .btn-see {
   padding-top: 30px;
   height: 90px;
+}
+
+.get-it {
+  align-self: flex-start;
+}
+
+.no-padding {
+  padding: 1px;
 }
