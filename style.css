@@ -406,9 +406,11 @@ a.btn-see-resume:active {
 
 .contact-form {
   background-image: url(contact_form_shapes.png), url(Contact_me.png);
-  background-size: auto 50%;
+  background-size: auto 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 106%;
+  align-self: center;
 }
 
 .contact-info {
