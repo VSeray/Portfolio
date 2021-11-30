@@ -405,14 +405,12 @@ a.btn-see-resume:active {
 }
 
 .contact-form {
-  background-image: url(contact_form_shapes.png);
+  background-image: url(contact_form_shapes.png), url(Contact_me.png);
   background-size: auto 50% ;
-  background-color: #6070ff;
   background-size: cover;
-  /* height: 100%;
-  width: 100%; */
-
+  background-repeat: no-repeat;
 }
+
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -424,15 +422,15 @@ a.btn-see-resume:active {
   text-align: center;
   color: white;
   margin-top: 160px;
+  margin-bottom: 20px;
 }
 
 .contact-info p {
   font-size: 20px;
   text-align: center;
   margin-bottom: 38px;
+  padding: 0 70px;
   color: white;
-  width: 87.2%;
-
 }
 .contact-input {
   width: 87.2%;
@@ -448,7 +446,10 @@ a.btn-see-resume:active {
 }
 
 .contact-textarea {
-  font-size: 15px;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
   border: none;
   color: #172b4d;
   text-indent: 10px;
@@ -456,25 +457,12 @@ a.btn-see-resume:active {
   margin-bottom: 10px;
   width:  87.2%;
   border-radius: 8px;
+  text-decoration: none;
 }
 
 .contact-textarea:focus {
   border: 1px solid #6070ff;
 }
-
-/*.contact-button {
-  width: 140px;
-  height: 48px;
-  color: #6070ff;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
-  align-self: flex-start;
-  border-radius: 8px;
-  border: none;
-  font-size: 17px;
-  font-weight: bold;
-}*/
 
 .contact-button:hover {
   background-color: #ffffff;
