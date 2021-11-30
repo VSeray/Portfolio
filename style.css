@@ -515,7 +515,7 @@ a.btn-see-resume:active {
   padding: 7px;
 }
 
-a.btn-get-it-touch:hover {
+.btn-get-it-touch:hover {
   border: 1px solid #396df2;
   padding: 7px;
   border-radius: 4px;
@@ -526,7 +526,7 @@ a.btn-get-it-touch:hover {
   font-family: 'Poppins', sans-serif;
 }
 
-a.btn-get-it-touch:active {
+.btn-get-it-touch:active {
   padding: 7px;
   border-radius: 4px;
   font-size: 17px;
