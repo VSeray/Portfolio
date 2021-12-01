@@ -583,6 +583,7 @@ a.btn-see-resume:active {
     line-height: 20px;
     padding-left: 10px;
     padding-right: 5px;
+    color: #344563;
   }
 
   .first-menu {
@@ -592,6 +593,7 @@ a.btn-see-resume:active {
     font-family: 'Poppins', sans-serif;
     line-height: 20px;
     padding-right: 10px;
+    color: #344563;
   }
 
   .first-menu a {
@@ -611,9 +613,45 @@ a.btn-see-resume:active {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("Header_desktop.png");
-    width: 1397.4px;
+    width: 1307.4px;
     height: 721.46px;
     left: 34.6px;
     top: 119px;
+  }
+
+  .intro {
+    width: 920px;
+    font-size: 48px;
+    font-style: normal;
+    padding-left: 90px;
+    line-height: 60px;
+    align-items: center;
+    margin: 12px 0;
+    letter-spacing: 0.37px;
+  }
+
+  .message {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: normal;
+    font-style: normal;
+    width: 920px;
+    height: 98px;
+    padding-left: 90px;
+    align-items: center;
+    margin: 12px 0;
+  }
+
+  .end-message {
+    font-style: normal;
+    padding-left: 90px;
+  }
+
+  .social-icon {
+    padding-left: 0%;
+    list-style: none;
+    width: 200px;
+    margin: 0 25px 0 115px;
+    position: static;
   }
 }
