@@ -66,10 +66,6 @@ html {
   background-repeat: no-repeat;
 }
 
-.desktop-wrapper {
-  display: none;
-}
-
 .headline-container {
   display: flex;
   flex-direction: column;
@@ -345,10 +341,6 @@ a.btn-see-resume:active {
   flex-direction: column;
 }
 
-.aboutme-wrapper {
-  display: none;
-}
-
 .dflex {
   font-weight: 500;
   font-size: medium;
@@ -421,7 +413,7 @@ a.btn-see-resume:active {
 }
 
 .contact-form {
-  background-image: url(contact_form_shapes.png), url(Contact_me.png);
+  background-image: url("contact_form_shapes.png"), url("Contact_me.png");
   background-size: auto 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -568,7 +560,7 @@ a.btn-see-resume:active {
   padding: 1px;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 992px) {
   .desk-menu {
     display: flex;
   }
@@ -671,6 +663,10 @@ a.btn-see-resume:active {
     order: 2;
   }
 
+  .lang-container {
+    width: 50%;
+  }
+
   .img-style {
     display: none;
   }
@@ -735,5 +731,173 @@ a.btn-see-resume:active {
     color: #344563;
     padding-top: 10px;
     margin-top: 0;
+  }
+
+  .aboutme {
+    height: 924px;
+    width: 1440px;
+  }
+
+  .intro-text-about {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    width: 920px;
+    font-size: 48px;
+    padding-left: 90px;
+    line-height: 60px;
+    align-items: center;
+    margin: 12px 0;
+    letter-spacing: 0.37px
+  }
+
+  .intro-about-message {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: normal;
+    font-style: normal;
+    width: 700px;
+    height: 98px;
+    padding-left: 90px;
+    align-items: center;
+    margin: 12px 0;
+  }
+
+  .aboutme-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    padding-top: 100px;
+    background-color: white;
+    border-top-right-radius: 110px;
+    width: 100%;
+  }
+
+  .btn-see-resume-container {
+    padding-left: 90px;
+    padding-top: 25px;
+    height: 90px;
+  }
+
+  .dflex {
+    background: #f7f7f9;
+    border-radius: 8px;
+    list-style: none;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    width: 130px;
+    height: 120px;
+    padding-top: 12px;
+    padding-left: 12px;
+    display: inline-block;
+    margin: 0 12px;
+  }
+
+  .style_skill {
+    width: 98px;
+    height: 24px;
+  }
+
+  .more_skills {
+    margin: 0 30px 0 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .main-skills {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    width: 100%;
+  }
+
+  .skills {
+    margin: 0 30px 0 0;
+    padding-left: 0;
+    list-style: none;
+    width: 100%;
+  }
+
+  .skills > li {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #091e42;
+  }
+
+  .header-skill {
+    padding-right: 55px;
+    font-weight: 500;
+    width: 100%;
+    height: 60px;
+  }
+
+  .lined_skill {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #091e42;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #7e8083;
+  }
+
+  .push {
+    float: right;
+  }
+
+  .desk-form {
+    background-image: url("contact_form_background_shapes.png");
+    background-size: 100%;
+    background-size: cover;
+    width: 1440px;
+    border-top-left-radius: 110px;
+    background-repeat: no-repeat;
+    background-color: #6070ff;
+    height: 1440px;
+  }
+
+  .contact-info h2 {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    line-height: 52px;
+    width: 801px;
+    height: 56px;
+    text-align: center;
+    color: white;
+    margin-top: 160px;
+    margin-bottom: 20px;
+  }
+
+  .contact-info p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 30px;
+    text-align: center;
+    width: 625px;
+    height: 102px;
+    margin: 12px 0;
+    margin-bottom: 38px;
+    padding: 0 70px;
+    color: white;
+  }
+
+  .input-container {
+    margin-left: 480px;
+  }
+
+  .btn-get {
+    padding-top: 20px;
+    height: 90px;
+    padding-left: 150px;
+  }
+
+  .home-ind {
+    display: none;
   }
 }
