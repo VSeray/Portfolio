@@ -33,6 +33,10 @@ html {
   align-items: center;
 }
 
+.desk-menu {
+  display: none;
+}
+
 .logo {
   text-decoration: none;
   color: rgba(96, 112, 255, 1);
@@ -60,6 +64,10 @@ html {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.desktop-wrapper {
+  display: none;
 }
 
 .headline-container {
@@ -550,4 +558,62 @@ a.btn-see-resume:active {
 
 .no-padding {
   padding: 1px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .desk-menu {
+    display: flex;
+  }
+
+  .desktop-menu {
+    width: 200px;
+    margin: 0 25px 0 25px;
+    position: static;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding-left: 0;
+  }
+
+  .top-menu {
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+
+  .first-menu {
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    padding-right: 10px;
+  }
+
+  .first-menu a {
+    text-decoration: none;
+  }
+
+  .top-menu a {
+    text-decoration: none;
+  }
+
+  .toogle-btn {
+    display: none;
+  }
+
+  .headline-wrapper {
+    border-bottom-left-radius: 110px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("Header_desktop.png");
+    width: 1397.4px;
+    height: 721.46px;
+    left: 34.6px;
+    top: 119px;
+  }
 }
