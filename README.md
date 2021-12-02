@@ -15,7 +15,7 @@ Run the command below from the Terminal:
 
 navigate to your projects folder
 
-run git clone (https://github.com/VSeray/Portfolio)in your terminals
+run git clone (https://github.com/VSeray/Portfolio) in your terminals
 
 run cd microverse_portfolio
 
@@ -35,7 +35,9 @@ Authors
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/microverseinc/readme-template/issues). Show your support
+Feel free to check the [issues page](https://github.com/microverseinc/readme-template/issues). 
+
+Show your support
 
 Give a ⭐️ if you like this project! Acknowledgments
 
