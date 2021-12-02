@@ -674,12 +674,21 @@ a.btn-see-resume:active {
     order: 1;
   }
 
+  .start-one {
+    order: 2;
+  }
+
+  .end-one {
+    order: 1;
+  }
+  
   .end {
     order: 2;
   }
 
   .lang-container {
-    width: 50%;
+    width: 45%;
+    justify-content: space-between;
   }
 
   .img-style {
