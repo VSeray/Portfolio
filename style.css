@@ -5,7 +5,10 @@ html {
   font-size: 10px;
   font-family: 'Poppins', sans-serif;
   background: #ffff;
-  overflow-x: hidden;
+}
+
+html,body {
+  max-width: 100%;
 }
 
 *,
@@ -101,7 +104,7 @@ html {
 }
 
 .social-icon {
-  padding-left: 0%;
+  padding-left: 0;
   list-style: none;
   width: 200px;
   margin: 0 25px 0 25px;
@@ -418,7 +421,7 @@ a.btn-see-resume:active {
   background-size: auto 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 106%;
+  width: 100%;
   align-self: center;
 }
 
