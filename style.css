@@ -586,7 +586,7 @@ a.btn-see-resume:active {
     line-height: 20px;
     padding-left: 12px;
     padding-right: 10px;
-    margin: 0px 10px;
+    margin: 0 10px;
   }
 
   .top-menu a {
@@ -602,7 +602,7 @@ a.btn-see-resume:active {
     line-height: 20px;
     padding-right: 10px;
     padding-left: 12px;
-    margin: 0px 10px;
+    margin: 0 10px;
   }
 
   .first-menu a {
@@ -922,5 +922,4 @@ a.btn-see-resume:active {
     height: 90px;
     padding-left: 150px;
   }
-
 }
