@@ -60,7 +60,7 @@ html {
   padding-top: 100px;
   padding-bottom: 100px;
   border-bottom-left-radius: 110px;
-  background-image: url("./header_section_background.png");
+  background-image: url("assets/header_section_background.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -191,7 +191,7 @@ html {
   font-size: 12px;
   font-family: 'Poppins', sans-serif;
   color: rgba(122, 134, 154, 1);
-  list-style-image: url("Counterping_1.png");
+  list-style-image: url("assets/Counterping_1.png");
   flex: 2;
 }
 
@@ -413,7 +413,7 @@ a.btn-see-resume:active {
 }
 
 .contact-form {
-  background-image: url("contact_form_shapes.png"), url("Contact_me.png");
+  background-image: url("assets/contact_form_shapes.png"), url("assets/Contact_me.png");
   background-size: auto 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -612,7 +612,7 @@ a.btn-see-resume:active {
     border-bottom-left-radius: 110px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("Header_desktop.png");
+    background-image: url("assets/Header_desktop.png");
     width: 1307.4px;
     height: 721.46px;
     left: 34.6px;
@@ -713,7 +713,7 @@ a.btn-see-resume:active {
     font-size: 16px;
     color: lightslategray;
     font-weight: 500;
-    list-style-image: url("Counterping_1.png");
+    list-style-image: url("assets/Counterping_1.png");
     padding-right: 25px;
   }
 
@@ -848,7 +848,7 @@ a.btn-see-resume:active {
   }
 
   .desk-form {
-    background-image: url("contact_form_background_shapes.png");
+    background-image: url("assets/contact_form_background_shapes.png");
     background-size: 100%;
     background-size: cover;
     width: 1440px;
