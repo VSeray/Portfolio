@@ -563,6 +563,17 @@ a.btn-see-resume:active {
 @media only screen and (min-width: 992px) {
   .desk-menu {
     display: flex;
+    padding-left: 10px;
+  }
+
+  .head-wrapper {
+    height: 50px;
+    margin-left: 155px;
+    margin-right: 155px;
+  }
+
+  .nav-bar {
+    padding-top: 25px;
   }
 
   .desktop-menu {
@@ -581,9 +592,11 @@ a.btn-see-resume:active {
     font-style: normal;
     font-family: 'Poppins', sans-serif;
     line-height: 20px;
-    padding-left: 10px;
-    padding-right: 5px;
+    padding-left: 12px;
+    padding-right: 10px;
+    margin: 0px 10px;
     color: #344563;
+    
   }
 
   .first-menu {
@@ -593,6 +606,8 @@ a.btn-see-resume:active {
     font-family: 'Poppins', sans-serif;
     line-height: 20px;
     padding-right: 10px;
+    padding-left: 12px;
+    margin: 0px 10px;
     color: #344563;
   }
 
@@ -613,8 +628,8 @@ a.btn-see-resume:active {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("assets/Header_desktop.png");
-    width: 1307.4px;
-    height: 721.46px;
+    width: 1440px;
+    height: 750.46px;
     left: 34.6px;
     top: 119px;
   }
