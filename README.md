@@ -1,18 +1,18 @@
 # Portfolio
 In this project, we We updated the protofolio project to implement the use of media queries for screen based css changes and to achieve Responsive Web Design. Making further use of Grid and Flexbox for layouts
 
-#Live Demo
+# Live Demo
 [Click here](https://vseray.github.io/Portfolio/)
 
 Additional description about the project and its features.
 
-#Built With
+# Built With
 
     .HTML
     .CSS
     .HTML & CSS Linters
 
-#Getting Started
+# Getting Started
 
 Please get your browser update. To get a local copy up and running follow these simple steps.
 
@@ -26,7 +26,7 @@ run cd microverse_portfolio
 
 start index.html
 
-#Authors
+# Authors
 
 👤 Author
 
@@ -42,7 +42,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/microverseinc/readme-template/issues). 
 
-#Show your support
+# Show your support
 
 Give a ⭐️ if you like this project! Acknowledgments
 
