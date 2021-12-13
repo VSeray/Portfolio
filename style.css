@@ -80,7 +80,7 @@ body {
   height: 12px;
   width: 12px;
   font-size: 20px;
-  border-radius: 0px;
+  border-radius: 0;
   float: right;
   margin-right: 38px;
   margin-top: 62px;
@@ -99,11 +99,6 @@ body {
 
 .mobile-menu > li {
   padding-bottom: 30px;
-}
-
-.mobile-menu > li a {
-  color: #fff;
-  text-decoration: none;
 }
 
 .headline-wrapper {
@@ -166,6 +161,11 @@ body {
 
 .social-media a {
   color: rgba(80, 95, 121, 1);
+}
+
+.mobile-menu > li a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .social-content {
