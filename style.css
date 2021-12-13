@@ -59,6 +59,46 @@ body {
   height: 3px;
   background-color: #6070ff;
   margin: 6px 0;
+  cursor: pointer;
+}
+
+.menu-overlay {
+  background-color: #6070ff;
+  display: block;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+  overflow-x: hidden;
+  transition: 0.75ms;
+  backdrop-filter: blur(6px);
+}
+
+.closeMenu {
+  height: 12px;
+  width: 12px;
+  font-size: 20px;
+  border-radius: 0;
+  float: right;
+  margin-right: 38px;
+  margin-top: 62px;
+  color: #fff;
+}
+
+.mobile-menu {
+  list-style: none;
+  padding: 106px 96px 0 28px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+.mobile-menu > li {
+  padding-bottom: 30px;
 }
 
 .headline-wrapper {
@@ -121,6 +161,11 @@ body {
 
 .social-media a {
   color: rgba(80, 95, 121, 1);
+}
+
+.mobile-menu > li a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .social-content {
@@ -573,6 +618,20 @@ a.btn-see-resume:active {
     padding-top: 25px;
   }
 
+  .logo {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+
+  .transforma {
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .transforma:hover {
+    transform: scale(1.1);
+  }
+
   .desktop-menu {
     width: 200px;
     margin: 0 25px 0 25px;
@@ -925,5 +984,9 @@ a.btn-see-resume:active {
     padding-top: 20px;
     height: 90px;
     padding-left: 150px;
+  }
+
+  .menu-overlay {
+    display: none;
   }
 }
