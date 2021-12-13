@@ -31,25 +31,25 @@
       <header>
          <div class="head-wrapper">
            <nav class="nav-bar">
-              <a class="logo"  href="#" tabindex="1">My Logo</a>
+              <a class="logo"  href="#welcome" tabindex="1">My Logo</a>
             
-             <div class="menu">
+             <div class="menu" tabindex="2" id="mobileMenuButton">
                 <div class="toogle-btn"></div>
                 <div class="toogle-btn"></div>
                 <div class="toogle-btn"></div>
              </div>
              <div class="desk-menu" tabindex="2">
                <ul class="desktop-menu">
-                 <li class="first-menu"><a href="#" tabindex="2">Portfolio</a></li>
-                 <li class="top-menu"><a href="#" tabindex="3">About</a></li>
-                 <li class="top-menu"><a href="#" tabindex="4">Contact</a></li>
+                 <li class="first-menu transforma"><a href="#portfolio" tabindex="2">Portfolio</a></li>
+                 <li class="top-menu transforma"><a href="#about" tabindex="3">About</a></li>
+                 <li class="top-menu transforma"><a href="#contact" tabindex="4">Contact</a></li>
                </ul>
              </div>
            </nav>
          </div>
        </header>
 
-       <section>
+       <section class="intro-section" id="welcome">
          <div class="headline-wrapper">
            <div class="headline-container">
              <div class="intro"><h1>I'm Vana<br> Glad to see you!</h1></div>
@@ -61,17 +61,17 @@
 
          <div class="social-icon">
              <ul class="social-content">
-               <li class="social-media"><a href="#" tabindex="5"><i class="fa fa-twitter"></i></a></li>
-               <li class="social-media"><a href="#" tabindex="6"><i class="fa fa-linkedin"></i></a></li>
-               <li class="social-media"><a href="#" tabindex="7"><i class="fa fa-medium"></i></a></li>
-               <li class="social-media"><a href="#" tabindex="8"><i class="fa fa-github"></i></a></li>
-               <li class="social-media"><a href="#" tabindex="9"><i class="fa fa-angellist"></i></a></li>
+               <li class="social-media transforma"><a href="#" tabindex="5"><i class="fa fa-twitter"></i></a></li>
+               <li class="social-media transforma"><a href="#" tabindex="6"><i class="fa fa-linkedin"></i></a></li>
+               <li class="social-media transforma"><a href="#" tabindex="7"><i class="fa fa-medium"></i></a></li>
+               <li class="social-media transforma"><a href="#" tabindex="8"><i class="fa fa-github"></i></a></li>
+               <li class="social-media transforma"><a href="#" tabindex="9"><i class="fa fa-angellist"></i></a></li>
               </ul>
           </div>
         </div> 
        </section> 
 
-       <section class="works">
+       <section class="works" id="portfolio">
          <div class="works-flex">
            <div class="works-flex-item work-image start">
              <img src="assets/snapshoot_portfolio.png" class="img-style" alt="Tonic project dashboard for daily selections" tabindex="9"/>
@@ -206,7 +206,7 @@
          </div>
        </section>
 
-       <section class="aboutme">
+       <section class="aboutme" id="about">
          <div class="aboutme-wrapper">
             <div class="about-headline">
                 <h2 class="intro-text-about">About<br> Myself</h2>
@@ -216,11 +216,11 @@
                </div>
                 <div class="social-icon">
                   <ul class="social-content">
-                    <li class="social-media"><a href="#" tabindex="17"><i class="fa fa-twitter"></i></a></li>
-                    <li class="social-media"><a href="#" tabindex="18"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="social-media"><a href="#" tabindex="19"><i class="fa fa-medium"></i></a></li>
-                    <li class="social-media"><a href="#" tabindex="20"><i class="fa fa-github"></i></a></li>
-                    <li class="social-media"><a href="#" tabindex="21"><i class="fa fa-angellist"></i></a></li>
+                    <li class="social-media transforma"><a href="#" tabindex="17"><i class="fa fa-twitter"></i></a></li>
+                    <li class="social-media transforma"><a href="#" tabindex="18"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="social-media transforma"><a href="#" tabindex="19"><i class="fa fa-medium"></i></a></li>
+                    <li class="social-media transforma"><a href="#" tabindex="20"><i class="fa fa-github"></i></a></li>
+                    <li class="social-media transforma"><a href="#" tabindex="21"><i class="fa fa-angellist"></i></a></li>
                    </ul>
                </div>
                <div class="btn-see-resume-container">
@@ -270,7 +270,7 @@
               <div class="divider"></div>
          </div>
        </section>
-     <footer class="contact-form desk-form">
+     <footer class="contact-form desk-form" id="contact">
         <form class="contact-info" action="https://formspree.io/f/mwkyenjw" method="POST">
             <h2>Contact me</h2>
             <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
@@ -286,5 +286,18 @@
             </div>
         </form>
      </footer>
+
+     <div class="menu-overlay" id="menu-overlay">
+       <a href="#" class="closeMenu" onclick="closeMobileMenu()"> 
+          <i class="fa fa-times" aria-hidden="true"></i>
+       </a>
+       <ul class="mobile-menu">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+       </ul>
+     </div>
+
+     <script src="portfolio.js"></script>
    </body>
 </html>

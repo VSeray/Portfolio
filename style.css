@@ -59,6 +59,7 @@ body {
   height: 3px;
   background-color: #6070ff;
   margin: 6px 0;
+  cursor: pointer;
 }
 
 .headline-wrapper {
@@ -573,6 +574,19 @@ a.btn-see-resume:active {
     padding-top: 25px;
   }
 
+  .logo {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+  
+  .transforma {
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  .transforma:hover {
+    transform: scale(1.1);
+  }
+
   .desktop-menu {
     width: 200px;
     margin: 0 25px 0 25px;
@@ -925,5 +939,9 @@ a.btn-see-resume:active {
     padding-top: 20px;
     height: 90px;
     padding-left: 150px;
+  }
+
+  .menu-overlay {
+    display: none;
   }
 }
