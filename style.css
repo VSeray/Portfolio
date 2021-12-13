@@ -583,7 +583,7 @@ a.btn-see-resume:active {
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
   }
-  
+
   .transforma:hover {
     transform: scale(1.1);
   }
