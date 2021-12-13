@@ -578,11 +578,12 @@ a.btn-see-resume:active {
     -webkit-transform: rotateX(360deg);
     transform: rotateX(360deg);
   }
-  
+
   .transforma {
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
   }
+  
   .transforma:hover {
     transform: scale(1.1);
   }
