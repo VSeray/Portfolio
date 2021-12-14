@@ -999,9 +999,8 @@ a.btn-see-resume:active {
     display: none;
   }
 
-  .description-container 
-  ::before,
-  ::after {
+  .description-container
+  ::before, ::after {
     display: flex;
     flex-direction: row;
     box-sizing: inherit;
