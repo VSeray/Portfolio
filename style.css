@@ -603,6 +603,10 @@ a.btn-see-resume:active {
   padding: 1px;
 }
 
+.img-style-desktop-popup {
+  display: none;
+}
+
 @media only screen and (min-width: 992px) {
   .desk-menu {
     display: flex;
@@ -739,6 +743,10 @@ a.btn-see-resume:active {
 
   .end {
     order: 2;
+  }
+
+  .img-style-desktop-popup {
+    display: block;
   }
 
   .lang-container {
@@ -989,5 +997,20 @@ a.btn-see-resume:active {
 
   .menu-overlay {
     display: none;
+  }
+
+  .description-container ::before, 
+  ::after {
+    display: flex;
+    flex-direction: row;
+    box-sizing: inherit;
+  }
+
+  .project-text {
+    width: 70%;
+  }
+
+  .project-tags > div {
+    margin-left: 25px;
   }
 }
