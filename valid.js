@@ -22,7 +22,7 @@ form.addEventListener('submit', (event) => {
   const emailValid = validateEmail(document.querySelector('#user_email').value, EMAIL_LOWERCASE);
   if (emailValid) {
     form.submit();
-    msg.innerHTML = ''; 
+    msg.innerHTML = '';
     form.reset();
   }
 });
