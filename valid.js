@@ -15,7 +15,7 @@ function showError(input, message) {
 function validateEmail(input, invalidMsg) {
   const email = input.value.trim();
   if (email !== email.toLowerCase()) {
-    return showError(input, invalidMsg)
+    return showError(input, invalidMsg);
   }
   return true;
 }
@@ -26,4 +26,4 @@ form.addEventListener('submit', (event) => {
     form.submit();
     form.reset();
   }
-})
+});
