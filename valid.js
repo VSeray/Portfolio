@@ -1,8 +1,8 @@
-const form = document.querySelector('.contact-form');
+const form = document.querySelector('.contact-info');
 const EMAIL_LOWERCASE = 'Please email should be lowercase characters *';
+const msg = document.querySelector('.error-message');
 
 function showMessage(message) {
-  const msg = document.querySelector('.error-message');
   msg.innerHTML = message;
 }
 
@@ -22,6 +22,7 @@ form.addEventListener('submit', (event) => {
   const emailValid = validateEmail(document.querySelector('#user_email').value, EMAIL_LOWERCASE);
   if (emailValid) {
     form.submit();
+    msg.innerHTML = ''; 
     form.reset();
   }
 });
