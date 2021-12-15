@@ -55,7 +55,6 @@ const projects = [{
   linkSource: '',
 }];
 
-
 const menuOverlay = document.querySelector('#menu-overlay');
 const mobileMenuButton = document.querySelector('#mobileMenuButton');
 
@@ -97,7 +96,6 @@ function technologies(popup, techData) {
 
 let projectsItemsBuild = '';
 for (let i = 0; i < projects.length; i += 1) {
- 
   let flexPosition = 'start';
   let flexPositionReverse = 'end';
   if (i % 2 !== 0) {
