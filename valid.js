@@ -11,3 +11,19 @@ function showMessage(input, message, type) {
 function showError(input, message) {
   return showMessage(input, message, false);
 }
+
+function validateEmail(input, invalidMsg) {
+  const email = input.value.trim();
+  if (email !== email.toLowerCase()) {
+    return showError(input, invalidMsg)
+  }
+  return true;
+}
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const emailValid = validateEmail(form.nextElementSibling.user_email, EMAIL_LOWERCASE);
+  if (emailValid) {
+    form.submit();
+    form.reset();
+  }
+})
