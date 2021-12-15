@@ -725,7 +725,7 @@ a.btn-see-resume:active {
   padding-left: 0;
 }
 
-.contact-form > span {
+.error-message {
   color: red;
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
