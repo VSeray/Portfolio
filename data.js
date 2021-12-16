@@ -17,3 +17,10 @@ for (let j = 0; j < formInputs.length; j += 1) {
     useLocalStorage();
   })
 }
+
+const formData = JSON.parse(localStorage.getItem('contactFormData'));
+if (formData !== null) {
+  clientName.value = formData.name;
+  clientEmail.value = formData.email;
+  clientMessage.value = formData.message;
+}
