@@ -8,14 +8,14 @@ function useLocalStorage() {
     email: clientEmail.value,
     message: clientMessage.value,
   };
-  localStorage.setItem('contactFormData', Json.stringify(contactFormData))
+  localStorage.setItem('contactFormData', JSON.stringify(contactFormData));
 }
 
 const formInputs = document.querySelectorAll('input , textarea');
 for (let j = 0; j < formInputs.length; j += 1) {
   formInputs[j].addEventListener('change', () => {
     useLocalStorage();
-  })
+  });
 }
 
 const formData = JSON.parse(localStorage.getItem('contactFormData'));
