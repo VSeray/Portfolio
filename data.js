@@ -8,7 +8,7 @@ function useLocalStorage() {
     email: clientEmail.value,
     message: clientMessage.value,
   };
-  localStorage.setItem('contactFormData', Json.stringify(contactFormData));
+  localStorage.setItem('contactFormData', JSON.stringify(contactFormData));
 }
 
 const formInputs = document.querySelectorAll('input , textarea');
