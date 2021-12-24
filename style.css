@@ -100,12 +100,7 @@ body {
 }
 
 .mobile-menu > li {
-  padding-bottom: 30px;
-}
-
-.mobile-menu > li a {
-  color: #fff;
-  opacity: 100%;
+  padding-bottom: 70px;
 }
 
 .headline-wrapper {
