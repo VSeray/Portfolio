@@ -64,6 +64,7 @@ body {
 
 .menu-overlay {
   background-color: #6070ff;
+  opacity: 80%;
   display: block;
   height: 100%;
   width: 0;
