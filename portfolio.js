@@ -23,8 +23,8 @@ const projects = [{
   technologies: ['html', 'css', 'javaScript'],
   popupImageUrlMobile: 'assets/modal_snapshoot_mobile.png',
   popupImageUrlDesktop: 'assets/modal_snapshoot.png',
-  linkLive: 'https://vseray.github.io/Portfolio/',
-  linkSource: 'https://github.com/VSeray/Portfolio.git',
+  linkLive: '',
+  linkSource: 'https://github.com/VSeray/To-Do-list.git',
 },
 {
   name: 'Tonic',
