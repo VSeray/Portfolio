@@ -3,7 +3,7 @@ const projects = [{
   name: 'To Do List App',
   details: ['Today\'s todo', 'Front End Dev', '2022'],
   smallDescription: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you manage them too!',
-  bigDescription: "A simple page with a list of To-Do tasks. Users can add to-do items, check completed, clear completed, and delete tasks. Built with Webpack, Javascript and utilizes LocalStorage. ",
+  bigDescription: 'A simple page with a list of To-Do tasks. Users can add to-do items, check completed, clear completed, and delete tasks. Built with Webpack, Javascript and utilizes LocalStorage.',
   imageUrlMobile: 'assets/images/Todo-List.PNG',
   imageUrlDesktop: 'assets/images/Todo-List.PNG',
   popupImageUrlMobile: 'assets/images/Todo-List.PNG',
