@@ -1,59 +1,64 @@
+/** Create data object */
 const projects = [{
-  name: 'To Do List',
-  details: ['Academic', 'Front End Dev', '2022'],
-  smallDescription: 'A simple to-do app for managing daily tasks built with Webpack, JavaScript, HTML, and CSS.',
+  name: 'To Do List App',
+  details: ['Today\'s todo', 'Front End Dev', '2022'],
+  smallDescription: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you manage them too!',
   bigDescription: "A simple page with a list of To-Do tasks. Users can add to-do items, check completed, clear completed, and delete tasks. Built with Webpack, Javascript and utilizes LocalStorage. ",
-  imageUrlMobile: 'assets/todo-List.PNG',
-  imageUrlDesktop: 'assets/todo-List.PNG',
-  popupImageUrlMobile: 'assets/todo-List.PNG',
-  popupImageUrlDesktop: 'assets/todo-List.PNG',
-  technologiesPopup: ['html', 'css', 'javaScript'],
+  imageUrlMobile: 'assets/images/Todo-List.PNG',
+  imageUrlDesktop: 'assets/images/Todo-List.PNG',
+  popupImageUrlMobile: 'assets/images/Todo-List.PNG',
+  popupImageUrlDesktop: 'assets/images/Todo-List.PNG',
+  technologiesPopup: ['html', 'css', 'javaScript', 'ES6', 'WebPack', 'HTML & CSS & JavaScript Linters'],
   technologies: ['html', 'css', 'javaScript'],
-  linkLive: '',
-  linkSource: '',
-},
-{
-  name: 'Multi-Post Stories',
-  details: ['CANOPY', 'Back End Dev', '2015'],
-  smallDescription: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-  bigDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  imageUrlMobile: 'assets/snapshoot_portfolio(1).png',
-  imageUrlDesktop: 'assets/Snapshoot_Portfolio_desktop(1).png',
-  technologiesPopup: ['html', 'css', 'javaScript'],
-  technologies: ['html', 'css', 'javaScript'],
-  popupImageUrlMobile: 'assets/modal_snapshoot_mobile.png',
-  popupImageUrlDesktop: 'assets/modal_snapshoot.png',
-  linkLive: '',
+  linkLive: 'https://vseray.github.io/To-Do-list/dist/',
   linkSource: 'https://github.com/VSeray/To-Do-list.git',
 },
 {
-  name: 'Tonic',
-  details: ['CANOPY', 'Back End Dev', '2015'],
-  smallDescription: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+  name: 'Multi-Post Stories',
+  details: ['FACEBOOK', 'Full Stack Dev', '2015'],
+  smallDescription: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
   bigDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  imageUrlMobile: 'assets/snapshoot_portfolio(2).png',
-  imageUrlDesktop: 'assets/Snapshoot_Portfolio_desktop(2).png',
-  technologiesPopup: ['html', 'css', 'javaScript'],
+  imageUrlMobile: 'assets/images/modal_mobile.png',
+  imageUrlDesktop: 'assets/images/modal_desktop.png',
+  technologiesPopup: ['html', 'Ruby on rails', 'css', 'javaScript'],
   technologies: ['html', 'css', 'javaScript'],
-  popupImageUrlMobile: 'assets/modal_snapshoot_mobile.png',
-  popupImageUrlDesktop: 'assets/modal_snapshoot.png',
+  popupImageUrlMobile: 'assets/images/modal_snapshoot_mobile.png',
+  popupImageUrlDesktop: 'assets/images/modal_snapshoot.png',
   linkLive: '',
   linkSource: '',
 },
 {
-  name: 'Multi-Post Stories',
-  details: ['CANOPY', 'Back End Dev', '2015'],
+  name: 'Facebook 360',
+  details: ['FACEBOOK', 'Full Stack Dev', '2015'],
+  smallDescription: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+  bigDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+  imageUrlMobile: 'assets/images/modal_mobile.png',
+  imageUrlDesktop: 'assets/images/modal_desktop.png',
+  technologiesPopup: ['html', 'Ruby on rails', 'css', 'javaScript'],
+  technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
+  popupImageUrlMobile: 'assets/images/modal_snapshoot_mobile.png',
+  popupImageUrlDesktop: 'assets/images/modal_snapshoot.png',
+  linkLive: '',
+  linkSource: '',
+},
+{
+  name: 'Uber navigation',
+  details: ['Uber', 'Lead developer', '2018'],
   smallDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
   bigDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  imageUrlMobile: 'assets/snapshoot_portfolio(3).png',
-  imageUrlDesktop: 'assets/Snapshoot_Portfolio_desktop(3).png',
-  technologiesPopup: ['html', 'css', 'javaScript'],
-  technologies: ['html', 'css', 'javaScript'],
-  popupImageUrlMobile: 'assets/modal_snapshoot_mobile.png',
-  popupImageUrlDesktop: 'assets/modal_snapshoot.png',
+  imageUrlMobile: 'assets/images/modal_mobile.png',
+  imageUrlDesktop: 'assets/images/modal_desktop.png',
+  technologiesPopup: ['html', 'Ruby on rails', 'css', 'javaScript'],
+  technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
+  popupImageUrlMobile: 'assets/images/modal_snapshoot_mobile.png',
+  popupImageUrlDesktop: 'assets/images/modal_snapshoot.png',
   linkLive: '',
   linkSource: '',
 }];
+
+/** Create data object end */
+
+/** Set up mobile menu start */
 
 const menuOverlay = document.querySelector('#menu-overlay');
 const mobileMenuButton = document.querySelector('#mobileMenuButton');
@@ -70,19 +75,28 @@ mobileMenuButton.addEventListener('click', () => {
   mobileMenuToogle();
 });
 
-const mobileMenuLinks = document.querySelectorAll('.mobile-menu li a');
+const mobileMenuLinks = document.querySelectorAll('.menu-mobile li a');
 for (let i = 0; i < mobileMenuLinks.length; i += 1) {
   mobileMenuLinks[i].addEventListener('click', () => {
     closeMobileMenu();
   });
 }
 
+/** Set up mobile menu finish */
+
+/** Sort out technologies */
 function technologies(popup, techData) {
   let m = 1;
   let technologiesPopup = '';
   let technologies = '';
   techData.forEach((tech) => {
     if (!popup) {
+      if (tech.toLowerCase().includes('ruby')) {
+        technologies += `<li class="lang ruby">${tech}</li>`;
+      } else {
+        technologies += `<li class="lang">${tech}</li>`;
+      }
+    } else {
       if (m <= 3) {
         technologies += `<li class="lang">${tech}</li>`;
       } else {
@@ -94,8 +108,12 @@ function technologies(popup, techData) {
   return [technologies, technologiesPopup];
 }
 
+/** Sort out technologies */
+
+/** * Dynamically adding works-flex items in works section start */
 let projectsItemsBuild = '';
 for (let i = 0; i < projects.length; i += 1) {
+  // determine flex postion of image and work description
   let flexPosition = 'start';
   let flexPositionReverse = 'end';
   if (i % 2 !== 0) {
@@ -103,16 +121,17 @@ for (let i = 0; i < projects.length; i += 1) {
     flexPositionReverse = 'start';
   }
 
+  // further loop within the parent loop to break and read technologies
   const techData = technologies(false, projects[i].technologies);
 
   projectsItemsBuild += `<div class="works-flex">
                           <div class="works-flex-item work-image ${flexPosition}">
                               <img src="${projects[i].imageUrlMobile}" class="img-style" alt="${projects[i].name} project screenshot"/>
-                              <img src="${projects[i].imageUrlDesktop}" class="img-style-desk" alt="${projects[i].name} project screenshot"/>
+                              <img src="${projects[i].imageUrlDesktop}" class="img-style-desktop" alt="${projects[i].name} project screenshot"/>
                           </div>
-                          <div class="work-container ${flexPositionReverse}">
+                          <div class="wcontainer ${flexPositionReverse}">
                               <div class="works-flex-item">
-                                  <h3 class="intro-works-text">${projects[i].name}</h3>
+                                  <h3 class="intro-text-works">${projects[i].name}</h3>
                               </div>
                               <ul class=" works-flex-item titles-container">
                                   <li class="list-main">${projects[i].details[0]}</li>
@@ -129,7 +148,7 @@ for (let i = 0; i < projects.length; i += 1) {
                               </div>
                               <div class="works-flex-item">
                                   <div class="btn-see">
-                                      <a href="#" class="btn-see-project" project-index="${i}">See project</a>
+                                      <a href="javascript:void(0)" class="btn-see-project" project-index="${i}">See project</a>
                                   </div>
                               </div>
                           </div>
@@ -138,6 +157,7 @@ for (let i = 0; i < projects.length; i += 1) {
 
 document.querySelector('#portfolio').innerHTML = projectsItemsBuild;
 
+/** * Dynamically adding works-flex items in works section end */
 function displayProjectDescriptionPopup(value) {
   const techData = technologies(true, projects[value].technologiesPopup);
   const projectPopup = document.querySelector('#projectPopup');
@@ -161,7 +181,7 @@ function displayProjectDescriptionPopup(value) {
                                            <img src="${projects[value].popupImageUrlDesktop}" class="img-style-desktop-popup" alt="${projects[value].name} project screenshot"/>
                                        </div>
                                        <div class="description-container">
-                                           <div class="works-description intro-message">
+                                           <div class="project-text intro-message">
                                                <p>
                                                ${projects[value].bigDescription}
                                                </p>
